@@ -12,7 +12,7 @@ after_success:
   - docker build -t henriquemazzoleni/multi-client ./client
   - docker build -t henriquemazzoleni/multi-nginx ./nginx
   - docker build -t henriquemazzoleni/multi-server ./server
-  - docker build -t henriquemazzoleni/multe-worker ./worker
+  - docker build -t henriquemazzoleni/multI-worker ./worker
   # Log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # push images to Docker Hub
